@@ -38,23 +38,3 @@ getStats('README.md').then(function (stats) {
     console.log(err);
 
 });
-
-/*
-var fs = require('fs');
-
-fs.stat('README.md', function (err, stats) {
-
-if (err) {
-
-console.log('error getting readme stats');
-console.log(err);
-
-} else {
-
-console.log('readme stats: ');
-console.log(stats);
-
-}
-
-});
-*/
